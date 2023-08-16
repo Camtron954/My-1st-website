@@ -1,0 +1,36 @@
+body {
+  background-color: lightgrey;
+}
+div {
+  width: 80%;
+  background-color: lavender;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+
+h1, h3, p, body {
+  text-align: center;
+}
+
+
+button {
+     background:
+url(https://torange.biz/photo/56/HD/click-me-red-button-transparent-png-56302.jpg")
+}
+
+/*  couldnt get the hover pic to work
+
+button:hover {
+     background:
+url("https://www.seekpng.com/png/detail/102-1022438_image-of-staples-easy-button-circle.png") 
+}
+*/
+
+footer {
+  font-size: 15px;
+}

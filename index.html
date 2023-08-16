@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset=UTF-8/>
+   <title>R + C</title>
+ <!--  ("in the format of "FL_RNG" where "FL" = your first initial + your last initial ?") -->
+  </head>
+  
+  
+  <body>
+    <div class="menu">
+    <main>
+      <h1> This is my <i>Website</i> </h1>
+     <section>
+       <h3> And Here Is My <em>BUTTON</em> </h3>
+      </section>
+     
+      <p id="Click Me"></p> 
+     <button onclick="random()"><img src="https://torange.biz/photo/56/HD/click-me-red-button-transparent-png-56302.jpg" height="250px" width="250px" alt="A button"></button>
+      
+<script>
+  function random(){
+    document.getElementById("Click Me").innerHTML = Math.floor(Math.random() * 1000) + 1;
+  }
+  </script>
+      
+      </main>
+  </body>
+</head>
+
+<footer>
+   <p> Click to generate a random number. </p>
+</footer>
